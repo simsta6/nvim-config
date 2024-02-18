@@ -15,6 +15,9 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 -- yanks text into system too when yanking with ` y`
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
+-- pastes text into nvim from system when pasting with ' p'
+vim.keymap.set("n", "<leader>p", "\"+p")
+vim.keymap.set("v", "<leader>p", "\"+p")
 
 -- when pressed on selected word it throws in a a replace command for whole file
 -- similarly to renamaning function or variable in your favorite IDE
