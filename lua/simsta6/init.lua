@@ -1,2 +1,2 @@
-require("theprimeagen.remap")
-require("theprimeagen.set")
+require("simsta6.remap")
+require("simsta6.set")
